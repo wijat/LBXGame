@@ -23,7 +23,7 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "d5c4b64f-eaf7-4e86-87c2-73e9e2f2bbbe": [
+            "406af525-60e1-4494-980a-099aa2ec82b0": [
                 "pics/pics",
                 "cc.SpriteFrame",
                 1
@@ -31,11 +31,6 @@ _CCSettings = {
             "790fb661-4b52-4958-86fb-a373b8ae223c": [
                 "pics/pics.plist",
                 "cc.SpriteAtlas"
-            ],
-            "406af525-60e1-4494-980a-099aa2ec82b0": [
-                "pics/pics",
-                "cc.SpriteFrame",
-                1
             ],
             "022c1158-dd90-4a80-90ff-6be8edbcc702": [
                 "pics/pics",
@@ -150,7 +145,16 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
+            "0e5c8e40-9880-4641-9f98-e985bf9d41ce": [
+                "pics/pics.png",
+                "cc.Texture2D"
+            ],
             "1e1a1f89-1ba3-4d5b-a99f-69172239b8e2": [
+                "pics/pics",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d5c4b64f-eaf7-4e86-87c2-73e9e2f2bbbe": [
                 "pics/pics",
                 "cc.SpriteFrame",
                 1
@@ -175,21 +179,17 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "0e5c8e40-9880-4641-9f98-e985bf9d41ce": [
-                "pics/pics.png",
-                "cc.Texture2D"
-            ],
             "647d0a20-b0f1-4787-9982-8645c013696a": [
                 "pics/bg.jpg",
-                "cc.Texture2D"
-            ],
-            "e1733586-b493-4e7f-802b-a50c88d4ccf1": [
-                "pics/kuang.png",
                 "cc.Texture2D"
             ],
             "590e322d-76d6-472c-a90f-54c0b1103e28": [
                 "anim/zhaxia.anim",
                 "cc.AnimationClip"
+            ],
+            "e1733586-b493-4e7f-802b-a50c88d4ccf1": [
+                "pics/kuang.png",
+                "cc.Texture2D"
             ],
             "1693e519-47b5-4b4b-9562-25faab97e0e5": [
                 "fonts/mikado_outline_shadow.png",
@@ -207,12 +207,12 @@ _CCSettings = {
                 "cc.SpriteFrame",
                 1
             ],
-            "b43ff3c2-02bb-4874-81f7-f2dea6970f18": [
-                "image/default_btn_pressed.png",
-                "cc.Texture2D"
-            ],
             "71561142-4c83-4933-afca-cb7a17f67053": [
                 "image/default_btn_disabled.png",
+                "cc.Texture2D"
+            ],
+            "b43ff3c2-02bb-4874-81f7-f2dea6970f18": [
+                "image/default_btn_pressed.png",
                 "cc.Texture2D"
             ]
         }
