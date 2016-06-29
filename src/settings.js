@@ -18,28 +18,32 @@ _CCSettings = {
                 "gameScene.fire",
                 "cc.SceneAsset"
             ],
-            "5f86d6c6-909d-4ab9-bb27-23226013518a": [
-                "pics/image1",
+            "65f721de-aa62-41fe-9e77-a7dc6d47155e": [
+                "pics/bg",
                 "cc.SpriteFrame",
                 1
             ],
-            "85577365-b5fb-4576-9ebd-2ca430501359": [
-                "pics/beijingxian",
+            "d5c4b64f-eaf7-4e86-87c2-73e9e2f2bbbe": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "1534099c-e63b-46f7-9fcd-fe93663d4004": [
-                "pics/anniuwenli",
+            "790fb661-4b52-4958-86fb-a373b8ae223c": [
+                "pics/pics.plist",
+                "cc.SpriteAtlas"
+            ],
+            "406af525-60e1-4494-980a-099aa2ec82b0": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "33d26aae-efdb-43eb-971f-2b14657b66b4": [
-                "pics/startLabel",
+            "022c1158-dd90-4a80-90ff-6be8edbcc702": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "d7bff0d6-0532-4890-be54-cf179d0fbbd1": [
-                "pics/anniu",
+            "b8d957f9-37b7-4101-a6b6-4c6b94115dfa": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
@@ -55,13 +59,13 @@ _CCSettings = {
                 "sound/bgm.mp3",
                 "cc.AudioClip"
             ],
-            "21591bb9-b3ac-40cf-ae51-f3b8df1300de": [
-                "pics/kuang",
+            "46d7a23b-9b74-48a1-9891-0356515e54a7": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "4b167e66-5a58-4d45-80f5-bca31d9b6d68": [
-                "pics/kuangLiang",
+            "be8726cd-4146-41a8-9320-cf5d4dfe0140": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
@@ -77,33 +81,33 @@ _CCSettings = {
                 "prefab/boomEff.prefab",
                 "cc.Prefab"
             ],
-            "3de3780e-899b-49d9-b9dc-3914b6da551c": [
-                "pics/qipanKuang",
+            "072b3db6-80f0-4cb5-a9d3-77edc26addc1": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "2cf204c6-b430-4349-b104-b7a3e16de9c5": [
-                "pics/wenli",
+            "5f22aa18-49ae-499a-8b3d-e5b9dda46438": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "732a713d-1134-4f5a-9ed2-f3adaa99fa0a": [
-                "pics/yanse1",
+            "a05e7b9d-de71-4b0e-b10a-9dcab8e753a3": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "d315040f-9c15-41e8-b432-78879aa8102e": [
-                "pics/yanse2",
+            "a6affece-5e13-4d19-b3dc-ee7f8467c12b": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "b7d6813a-324c-4c38-92a2-30e7191d173a": [
-                "pics/yanse3",
+            "1b82c19c-d8c4-4e35-a9ed-d84ae09d46f0": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "92e25caf-26bd-42de-9ca3-605423924ff7": [
-                "pics/yanse4",
+            "a91361b4-7294-4a99-8c66-113c3dc9d65e": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
@@ -131,127 +135,64 @@ _CCSettings = {
                 "fonts/mikado_outline_shadow.fnt",
                 "cc.BitmapFont"
             ],
-            "c7dc7638-ef91-4a40-b113-72597ba4fbec": [
-                "pics/defenFont",
+            "d900984a-7160-4831-9a56-ab1a22c4ed3f": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "6f849b85-878e-4023-af9c-b5c0ca4f9bcd": [
-                "pics/scoreFrame",
+            "6dd9d1f7-a1ee-445c-87a0-4835f1bcd7d2": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "2c9ffbc0-0fb0-41f8-96fb-9fb7643c5bd3": [
-                "pics/highScoreLabel",
+            "3d8b512d-f080-4294-b5e8-3e2ab006b980": [
+                "pics/pics",
                 "cc.SpriteFrame",
                 1
             ],
-            "5e0a79af-e46d-4fcb-8d75-eceeab9c7352": [
-                "pics/image1.jpg",
+            "1e1a1f89-1ba3-4d5b-a99f-69172239b8e2": [
+                "pics/pics",
+                "cc.SpriteFrame",
+                1
+            ],
+            "cfa2ac09-645c-47f2-8d59-967c729e69c7": [
+                "pics/pics",
+                "cc.SpriteFrame",
+                1
+            ],
+            "d52ad9fa-b89c-4bf8-a6df-44472ad741e9": [
+                "pics/pics",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0564cc2f-e4b3-4e38-825f-b8bf10428e3d": [
+                "pics/pics",
+                "cc.SpriteFrame",
+                1
+            ],
+            "6a1b18c9-6f69-421a-a0fb-e632501b998d": [
+                "pics/pics",
+                "cc.SpriteFrame",
+                1
+            ],
+            "0e5c8e40-9880-4641-9f98-e985bf9d41ce": [
+                "pics/pics.png",
                 "cc.Texture2D"
             ],
-            "8643a7b2-de13-4037-8d8f-39e4b631dd43": [
-                "pics/beijingxian.png",
+            "647d0a20-b0f1-4787-9982-8645c013696a": [
+                "pics/bg.jpg",
                 "cc.Texture2D"
             ],
-            "715f43de-7d53-4e3e-a835-981b7d9d9de0": [
-                "pics/anniuwenli.png",
-                "cc.Texture2D"
-            ],
-            "bd353621-6f16-40c6-88cb-26f1c33f7e93": [
-                "pics/startLabel.png",
-                "cc.Texture2D"
-            ],
-            "593a153e-eb50-4523-965d-a642497180ba": [
-                "pics/anniu.png",
-                "cc.Texture2D"
-            ],
-            "d8aef81e-d4e4-416f-993e-b84a065ee422": [
+            "e1733586-b493-4e7f-802b-a50c88d4ccf1": [
                 "pics/kuang.png",
                 "cc.Texture2D"
-            ],
-            "e155abf7-fb65-4bb1-a158-521cecdc8695": [
-                "pics/loseFont1",
-                "cc.SpriteFrame",
-                1
             ],
             "590e322d-76d6-472c-a90f-54c0b1103e28": [
                 "anim/zhaxia.anim",
                 "cc.AnimationClip"
             ],
-            "106a1e38-cf8b-4c40-8243-ffe22264d6b8": [
-                "pics/loseFont2",
-                "cc.SpriteFrame",
-                1
-            ],
-            "43661330-773d-4935-acb1-ccb50178b8d5": [
-                "pics/backAr",
-                "cc.SpriteFrame",
-                1
-            ],
-            "a60b5d73-2cc2-4c0f-9d83-d4239787493e": [
-                "pics/blackBG",
-                "cc.SpriteFrame",
-                1
-            ],
-            "a99d6eda-666c-4a05-bc1f-66e8bc9fb99f": [
-                "pics/qipanKuang.png",
-                "cc.Texture2D"
-            ],
-            "c40ac62a-5f37-4e62-97ab-8424515df8a1": [
-                "pics/kuangLiang.png",
-                "cc.Texture2D"
-            ],
-            "746039fd-b5f9-4c1f-b7c2-8311c5a26b61": [
-                "pics/wenli.png",
-                "cc.Texture2D"
-            ],
-            "40b6ae88-8a9c-4ba2-88fe-b498ab90cee5": [
-                "pics/yanse1.png",
-                "cc.Texture2D"
-            ],
-            "4dd61fc2-6196-4f31-b3e6-0a505a572a32": [
-                "pics/yanse2.png",
-                "cc.Texture2D"
-            ],
-            "ffebe3bb-a63f-4847-9076-073c544b4b49": [
-                "pics/yanse3.png",
-                "cc.Texture2D"
-            ],
-            "c41ebc1e-9fdb-499b-a6b0-4b5fb0d6e349": [
-                "pics/yanse4.png",
-                "cc.Texture2D"
-            ],
-            "757a254b-3d5a-41b2-8dd5-ba4c5b02f61c": [
-                "pics/defenFont.png",
-                "cc.Texture2D"
-            ],
-            "821f5bdd-1738-4b52-b7f4-d0ac87f058e0": [
-                "pics/scoreFrame.png",
-                "cc.Texture2D"
-            ],
-            "3450d5d8-b75d-4aff-885b-4e4cd746e9a3": [
-                "pics/highScoreLabel.png",
-                "cc.Texture2D"
-            ],
             "1693e519-47b5-4b4b-9562-25faab97e0e5": [
                 "fonts/mikado_outline_shadow.png",
-                "cc.Texture2D"
-            ],
-            "c7f93d30-df86-4d9a-ba68-dfedba1551b1": [
-                "pics/backAr.png",
-                "cc.Texture2D"
-            ],
-            "2f2aced6-189d-40ac-927d-9323e05850f1": [
-                "pics/loseFont1.png",
-                "cc.Texture2D"
-            ],
-            "da6703bc-9336-4636-8f35-c863c79f62de": [
-                "pics/loseFont2.png",
-                "cc.Texture2D"
-            ],
-            "86ababcd-024f-4f7a-8841-acafbf050c71": [
-                "pics/blackBG.png",
                 "cc.Texture2D"
             ]
         },

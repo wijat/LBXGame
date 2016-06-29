@@ -39,8 +39,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 88,
-      "height": 65
+      "width": 90,
+      "height": 67
     },
     "_position": {
       "__type__": "cc.Vec2",
@@ -64,7 +64,7 @@
       "__id__": 2
     },
     "_spriteFrame": {
-      "__uuid__": "e155abf7-fb65-4bb1-a158-521cecdc8695"
+      "__uuid__": "0564cc2f-e4b3-4e38-825f-b8bf10428e3d"
     }
   },
   {
@@ -73,7 +73,7 @@
       "__id__": 2
     },
     "_alignFlags": 1,
-    "_top": 120
+    "_top": 119
   },
   {
     "__type__": "cc.Animation",
@@ -123,7 +123,7 @@
       "__id__": 6
     },
     "_spriteFrame": {
-      "__uuid__": "106a1e38-cf8b-4c40-8243-ffe22264d6b8"
+      "__uuid__": "6a1b18c9-6f69-421a-a0fb-e632501b998d"
     }
   },
   {
@@ -221,7 +221,7 @@
       "__id__": 11
     },
     "_spriteFrame": {
-      "__uuid__": "1534099c-e63b-46f7-9fcd-fe93663d4004"
+      "__uuid__": "406af525-60e1-4494-980a-099aa2ec82b0"
     },
     "_sizeMode": 2
   },
@@ -233,8 +233,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 49,
-      "height": 44
+      "width": 74,
+      "height": 66
     },
     "_components": [
       {
@@ -248,7 +248,7 @@
       "__id__": 13
     },
     "_spriteFrame": {
-      "__uuid__": "43661330-773d-4935-acb1-ccb50178b8d5"
+      "__uuid__": "1e1a1f89-1ba3-4d5b-a99f-69172239b8e2"
     }
   },
   {
@@ -257,7 +257,7 @@
       "__id__": 10
     },
     "_spriteFrame": {
-      "__uuid__": "d7bff0d6-0532-4890-be54-cf179d0fbbd1"
+      "__uuid__": "b8d957f9-37b7-4101-a6b6-4c6b94115dfa"
     },
     "_type": 1,
     "_sizeMode": 0
@@ -305,9 +305,6 @@
       "r": 255,
       "g": 255,
       "b": 255
-    },
-    "_N$normalSprite": {
-      "__uuid__": "d7bff0d6-0532-4890-be54-cf179d0fbbd1"
     },
     "_N$disabledSprite": {
       "__uuid__": "29158224-f8dd-4661-a796-1ffab537140e"
@@ -376,7 +373,7 @@
       "__id__": 1
     },
     "_spriteFrame": {
-      "__uuid__": "a60b5d73-2cc2-4c0f-9d83-d4239787493e"
+      "__uuid__": "d52ad9fa-b89c-4bf8-a6df-44472ad741e9"
     },
     "_type": 1,
     "_sizeMode": 0
