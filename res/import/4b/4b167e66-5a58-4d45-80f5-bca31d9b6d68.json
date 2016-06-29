@@ -1,1 +1,21 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"kuangLiang","texture":"c40ac62a-5f37-4e62-97ab-8424515df8a1","rect":[8,5,74,80],"offset":[0,0],"originalSize":[90,90]}}
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kuangLiang",
+    "texture": "c40ac62a-5f37-4e62-97ab-8424515df8a1",
+    "rect": [
+      8,
+      5,
+      74,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      90,
+      90
+    ]
+  }
+}

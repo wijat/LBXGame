@@ -1,0 +1,64 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "boomEff",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "boomEff",
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ]
+  },
+  {
+    "__type__": "cc.ParticleSystem",
+    "node": {
+      "__id__": 1
+    },
+    "_custom": true,
+    "_texture": {
+      "__uuid__": "d8aef81e-d4e4-416f-993e-b84a065ee422"
+    },
+    "_dstBlendFactor": 1,
+    "_autoRemoveOnFinish": true,
+    "_totalParticles": 5,
+    "_duration": 0.5,
+    "_emissionRate": 15,
+    "_life": 0.5,
+    "_startColor": {
+      "__type__": "cc.Color",
+      "r": 197,
+      "g": 78,
+      "b": 114,
+      "a": 163
+    },
+    "_startColorVar": {
+      "__type__": "cc.Color",
+      "r": 241,
+      "g": 135,
+      "b": 135,
+      "a": 198
+    },
+    "_endColor": {
+      "__type__": "cc.Color",
+      "r": 170,
+      "g": 157,
+      "b": 44,
+      "a": 0
+    },
+    "_angle": 0,
+    "_angleVar": 0,
+    "_startSize": 40,
+    "_endSize": 110,
+    "_positionType": 1,
+    "_speed": 0,
+    "_speedVar": 0,
+    "_tangentialAccel": 0,
+    "_startRadius": 100
+  }
+]

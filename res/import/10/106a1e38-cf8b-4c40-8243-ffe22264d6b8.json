@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loseFont2",
+    "texture": "da6703bc-9336-4636-8f35-c863c79f62de",
+    "rect": [
+      0,
+      0,
+      321,
+      68
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      321,
+      68
+    ]
+  }
+}

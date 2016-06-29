@@ -1,1 +1,21 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"wenli","texture":"746039fd-b5f9-4c1f-b7c2-8311c5a26b61","rect":[0,1,60,68],"offset":[0,-0.5],"originalSize":[60,69]}}
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wenli",
+    "texture": "746039fd-b5f9-4c1f-b7c2-8311c5a26b61",
+    "rect": [
+      0,
+      1,
+      60,
+      68
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      60,
+      69
+    ]
+  }
+}

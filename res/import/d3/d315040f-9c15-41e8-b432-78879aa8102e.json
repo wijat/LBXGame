@@ -1,1 +1,21 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"yanse2","texture":"4dd61fc2-6196-4f31-b3e6-0a505a572a32","rect":[0,0,60,69],"offset":[0,0],"originalSize":[60,69]}}
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yanse2",
+    "texture": "4dd61fc2-6196-4f31-b3e6-0a505a572a32",
+    "rect": [
+      0,
+      0,
+      60,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      69
+    ]
+  }
+}

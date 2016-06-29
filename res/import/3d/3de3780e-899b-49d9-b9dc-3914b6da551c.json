@@ -1,0 +1,21 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "qipanKuang",
+    "texture": "a99d6eda-666c-4a05-bc1f-66e8bc9fb99f",
+    "rect": [
+      8,
+      8,
+      514,
+      464
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      530,
+      480
+    ]
+  }
+}
