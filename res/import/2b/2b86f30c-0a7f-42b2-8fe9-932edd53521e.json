@@ -205,6 +205,9 @@
     },
     "boomEffPrefab": {
       "__uuid__": "edaef095-6415-4552-b3fc-f82ef3fb144d"
+    },
+    "tipPrefab": {
+      "__uuid__": "c394b75e-a079-49aa-8fde-616758790d9a"
     }
   },
   {
