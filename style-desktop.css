@@ -18,12 +18,24 @@ body, canvas, div {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* Remove spin of input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
 #Cocos2dGameContainer {
   position: absolute;
   margin: 0;
   overflow: hidden;
   left: 0px;
   top: 0px;
+}
+
+canvas {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 a:link, a:visited {

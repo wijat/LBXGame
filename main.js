@@ -1,11 +1,16 @@
 (function () {
 
+    'use strict';
+
     function boot () {
 
-        if ( !_CCSettings.debug ) {
+        var settings = window._CCSettings;
+        window._CCSettings = undefined;
+
+        if ( !settings.debug ) {
             // retrieve minified raw assets
-            var rawAssets = _CCSettings.rawAssets;
-            var assetTypes = _CCSettings.assetTypes;
+            var rawAssets = settings.rawAssets;
+            var assetTypes = settings.assetTypes;
             for (var mount in rawAssets) {
                 var entries = rawAssets[mount];
                 for (var uuid in entries) {
@@ -19,15 +24,10 @@
         }
 
         // init engine
-        var canvas, div;
-        //var width = 640, height = 480;
+        var canvas;
 
         if (cc.sys.isBrowser) {
             canvas = document.getElementById('GameCanvas');
-            div = document.getElementById('GameDiv');
-
-            //width = div.clientWidth;
-            //height = div.clientHeight;
         }
 
         function setLoadingDisplay () {
@@ -54,29 +54,36 @@
             if (cc.sys.os !== cc.sys.OS_ANDROID || cc.sys.browserType !== cc.sys.BROWSER_TYPE_UC) {
                 cc.view.enableRetina(true);
             }
-            //cc.view.setDesignResolutionSize(_CCSettings.designWidth, _CCSettings.designHeight, cc.ResolutionPolicy.SHOW_ALL);
+            //cc.view.setDesignResolutionSize(settings.designWidth, settings.designHeight, cc.ResolutionPolicy.SHOW_ALL);
         
             if (cc.sys.isBrowser) {
                 setLoadingDisplay();
             }
 
-            if (_CCSettings.orientation === 'landscape') {
-                cc.view.setOrientation(cc.macro.ORIENTATION_LANDSCAPE);
-            }
-            else if (_CCSettings.orientation === 'portrait') {
-                cc.view.setOrientation(cc.macro.ORIENTATION_PORTRAIT);
+            if (cc.sys.isMobile) {
+                if (settings.orientation === 'landscape') {
+                    cc.view.setOrientation(cc.macro.ORIENTATION_LANDSCAPE);
+                }
+                else if (settings.orientation === 'portrait') {
+                    cc.view.setOrientation(cc.macro.ORIENTATION_PORTRAIT);
+                }
+                cc.view.enableAutoFullScreen(cc.sys.browserType !== cc.sys.BROWSER_TYPE_BAIDU);
             }
 
             // init assets
             cc.AssetLibrary.init({
                 libraryPath: 'res/import',
                 rawAssetsBase: 'res/raw-',
-                rawAssets: _CCSettings.rawAssets
+                rawAssets: settings.rawAssets,
+                packedAssets: settings.packedAssets
             });
 
-            var launchScene = _CCSettings.launchScene;
+            var launchScene = settings.launchScene;
 
             // load scene
+            if (cc.runtime) {
+                cc.director.setRuntimeLaunchScene(launchScene);
+            }
             cc.director.loadScene(launchScene, null,
                 function () {
                     if (cc.sys.isBrowser) {
@@ -94,34 +101,58 @@
                     console.log('Success to load scene: ' + launchScene);
                 }
             );
-
-            // purge
-            //noinspection JSUndeclaredVariable
-            _CCSettings = undefined;
         };
+
+        // jsList
+        var jsList = settings.jsList;
+        var bundledScript = settings.debug ? 'project.dev.js' : 'project.js';
+        if (jsList) {
+            jsList.push(bundledScript);
+        }
+        else {
+            jsList = [bundledScript];
+        }
+
+        // anysdk scripts
+        if (cc.sys.isNative && cc.sys.isMobile) {
+            jsList = jsList.concat(['jsb_anysdk.js', 'jsb_anysdk_constants.js']);
+        }
+
+        jsList = jsList.map(function (x) { return 'src/' + x; });
 
         var option = {
             //width: width,
             //height: height,
             id: 'GameCanvas',
-            scenes: _CCSettings.scenes,
-            debugMode: _CCSettings.debug ? cc.DebugMode.INFO : cc.DebugMode.ERROR,
-            showFPS: _CCSettings.debug,
+            scenes: settings.scenes,
+            debugMode: settings.debug ? cc.DebugMode.INFO : cc.DebugMode.ERROR,
+            showFPS: settings.debug,
             frameRate: 60,
-            jsList: [
-                _CCSettings.debug ? 'src/project.dev.js' : 'src/project.js'
-            ],
-            groupList: _CCSettings.groupList,
-            collisionMatrix: _CCSettings.collisionMatrix
+            jsList: jsList,
+            groupList: settings.groupList,
+            collisionMatrix: settings.collisionMatrix
         };
 
         cc.game.run(option, onStart);
     }
 
-    if (cc.sys.isBrowser) {
-        window.onload = boot;
+    if (window.document) {
+        var splash = document.getElementById('splash');
+        splash.style.display = 'block';
+
+        var cocos2d = document.createElement('script');
+        cocos2d.async = true;
+        cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js';
+
+        var engineLoaded = function () {
+            document.body.removeChild(cocos2d);
+            cocos2d.removeEventListener('load', engineLoaded, false);
+            boot();
+        };
+        cocos2d.addEventListener('load', engineLoaded, false);
+        document.body.appendChild(cocos2d);
     }
-    else if (cc.sys.isNative) {
+    else if (window.jsb) {
         require('src/settings.js');
         require('src/jsb_polyfill.js');
 
