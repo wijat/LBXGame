@@ -1,0 +1,85 @@
+2016-10-03T00:01:36.547Z - normal: Load ~/.CocosCreator/settings.json
+2016-10-03T00:01:36.563Z - normal: checking language setting...
+2016-10-03T00:01:36.563Z - normal: Language: zh
+2016-10-03T00:01:37.705Z - success: protocol editor-framework registered
+2016-10-03T00:01:37.705Z - success: protocol app registered
+2016-10-03T00:01:37.705Z - success: protocol packages registered
+2016-10-03T00:01:37.705Z - success: protocol theme registered
+2016-10-03T00:01:37.706Z - success: protocol unpack registerred
+2016-10-03T00:01:38.038Z - normal: connected!
+2016-10-03T00:01:38.041Z - normal: Check project F:\svn\lbxGame
+2016-10-03T00:01:38.047Z - normal: Initializing Cocos Creator Editor
+2016-10-03T00:01:38.698Z - normal: Initializing Cocos2d
+2016-10-03T00:01:38.917Z - normal: Initializing Asset Database
+2016-10-03T00:01:38.946Z - success: protocol uuid registerred
+2016-10-03T00:01:38.946Z - success: protocol db registerred
+2016-10-03T00:01:38.946Z - success: protocol thumbnail registerred
+2016-10-03T00:01:38.947Z - normal: Loading editor/builtin packages
+2016-10-03T00:01:39.107Z - success: assets loaded
+2016-10-03T00:01:39.113Z - success: builder loaded
+2016-10-03T00:01:39.118Z - success: hierarchy loaded
+2016-10-03T00:01:39.122Z - success: inspector loaded
+2016-10-03T00:01:39.123Z - success: keystore loaded
+2016-10-03T00:01:39.127Z - success: node-library loaded
+2016-10-03T00:01:39.129Z - success: preferences loaded
+2016-10-03T00:01:39.144Z - success: project-importer loaded
+2016-10-03T00:01:39.151Z - success: project-settings loaded
+2016-10-03T00:01:39.153Z - success: ui-kit loaded
+2016-10-03T00:01:39.155Z - success: ui-grid loaded
+2016-10-03T00:01:39.160Z - success: scene loaded
+2016-10-03T00:01:39.162Z - success: sprite-editor loaded
+2016-10-03T00:01:39.168Z - success: timeline loaded
+2016-10-03T00:01:39.168Z - normal: Loading builtin packages
+2016-10-03T00:01:39.172Z - success: asset-db-debugger loaded
+2016-10-03T00:01:39.178Z - success: cocos-package loaded
+2016-10-03T00:01:39.179Z - success: code-editor loaded
+2016-10-03T00:01:39.180Z - success: color-picker loaded
+2016-10-03T00:01:39.184Z - success: console loaded
+2016-10-03T00:01:39.187Z - success: package-manager loaded
+2016-10-03T00:01:39.191Z - success: tester loaded
+2016-10-03T00:01:39.193Z - success: ui-kit-preview-extra loaded
+2016-10-03T00:01:39.195Z - success: ui-kit-preview loaded
+2016-10-03T00:01:39.196Z - success: ui-tree loaded
+2016-10-03T00:01:39.240Z - normal: Initializing project F:\svn\lbxGame
+2016-10-03T00:01:39.252Z - normal: Loading packages
+2016-10-03T00:01:39.258Z - normal: Run Application
+2016-10-03T00:01:40.237Z - success: preview server running at http://localhost:7456
+2016-10-03T00:01:44.643Z - normal: 1.2.2
+2016-10-03T00:02:29.349Z - error: Build Failed: Error: ENOENT: no such file or directory, open 'C:\CocosCreator\resources\engine\bin\.cache\.excludes-min'
+    at Error (native)
+    at Object.fs.openSync (fs.js:634:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:176:20)
+    at Object.fs.writeFileSync (fs.js:1337:33)
+    at Gulp.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\gulp-build.js:1:9484)
+    at module.exports (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:34:7)
+    at Gulp.Orchestrator._runTask (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:273:3)
+    at Gulp.Orchestrator._runStep (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:214:10)
+    at C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:279:18
+    at finish (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:21:8)
+    at C:\CocosCreator\resources\app.asar\editor\core\builder.js:1:904
+    at Gulp.doneCallback (C:\CocosCreator\resources\app.asar\editor\core\gulp-build.js:1:11433)
+    at Gulp.Orchestrator.stop (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:150:9)
+    at C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:277:22
+    at finish (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:21:8)
+    at module.exports (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:36:10)
+    at Gulp.Orchestrator._runTask (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:273:3)
+    at Gulp.Orchestrator._runStep (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:214:10)
+    at C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:279:18
+2016-10-03T00:02:32.120Z - normal: Compiled successfully
+2016-10-03T00:03:46.587Z - normal: Compiled successfully
+2016-10-03T00:03:48.856Z - normal: 1.2.2
+2016-10-03T00:03:50.294Z - normal: Built to "F:\svn\lbxGame\build" successfully
+2016-10-03T00:22:11.170Z - normal: Compiled successfully
+2016-10-03T00:34:20.258Z - normal: Compiled successfully
+2016-10-03T00:34:23.486Z - normal: Compiled successfully
+2016-10-03T00:36:21.541Z - normal: Compiled successfully
+2016-10-03T00:36:25.563Z - normal: Compiled successfully
+2016-10-03T00:36:29.008Z - normal: Compiled successfully
+2016-10-03T00:38:43.100Z - normal: Compiled successfully
+2016-10-03T00:48:36.278Z - normal: Compiled successfully
+2016-10-03T00:49:17.777Z - normal: Compiled successfully
+2016-10-03T00:52:25.072Z - normal: Compiled successfully
+2016-10-03T00:53:07.835Z - normal: Compiled successfully
+2016-10-03T00:53:49.859Z - normal: Compiled successfully
+2016-10-03T00:54:53.968Z - normal: Compiled successfully
+2016-10-03T00:55:50.693Z - normal: Compiled successfully

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;;;AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,kDACL,QAAQ,EAAG,CAAC,gCACZ,QAAQ,EAAG,CAAC,gCACZ,eAAe,EAAG,EAAE,gCACpB,KAAK,EAAG,EAAE,eACd;;;AAGD,cAAU,EAAE,sBAAW;;AAEnB,YAAI,EAAE,GAAG,EAAE,CAAC,OAAO,CAAC,EAAE,CAAC,CAAC,CAAC,IAAI,CAAC,QAAQ,CAAC,EAAE,IAAI,CAAC,QAAQ,CAAC,CAAC,CAAC,GAAG,IAAI,CAAC,eAAe,CAAC,CAAA;AACjF,YAAI,SAAS,GAAG,EAAE,CAAC,KAAK,CAAC,EAAE,CAAC,UAAU,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,eAAe,EAAE,EAAE,EAAE,CAAC,eAAe,EAAE,CAAC,CAAC,EAAE,IAAI,CAAC,KAAK,CAAC,CAAC,CAAA;;AAEtG,YAAI,OAAO,GAAG,EAAE,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC,CAAC,IAAI,CAAC,QAAQ,CAAC,EAAE,IAAI,CAAC,QAAQ,CAAC,CAAC,EAAE,SAAS,CAAC,CAAA;;AAEtE,YAAI,MAAM,GAAG,EAAE,CAAC,aAAa,CAAC,EAAE,CAAC,QAAQ,CACrC,EAAE,CAAC,MAAM,CAAC,EAAE,EAAE,OAAO,CAAC,EACtB,EAAE,CAAC,MAAM,CAAC,EAAE,EAAE,EAAE,CAAC,KAAK,CAAC,OAAO,EAAE,CAAC,CAAC,CAAC,CAAC,CACvC,CAAC,CAAA;;AAEF,YAAI,CAAC,IAAI,CAAC,SAAS,CAAC,MAAM,CAAC,CAAA;KAC9B;;;AAGD,UAAM,EAAE,kBAAW;AACf,YAAI,CAAC,UAAU,EAAE,CAAA;KACpB;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        [\"X轴移动距离\"]: 1,\r\n        [\"y轴移动距离\"]: 1,\r\n        [\"移动速度(单位：像素/秒)\"]: 20,\r\n        [\"随机量\"]: 10,\r\n    },\r\n\r\n    //随机移动\r\n    randomMove: function() {\r\n\r\n        var dt = cc.pLength(cc.p(this[\"X轴移动距离\"], this[\"y轴移动距离\"])) / this[\"移动速度(单位：像素/秒)\"]\r\n        var randomDir = cc.pMult(cc.pNormalize(cc.p(cc.randomMinus1To1(), cc.randomMinus1To1())), this[\"随机量\"])\r\n\r\n        var moveDir = cc.pAdd(cc.p(this[\"X轴移动距离\"], this[\"y轴移动距离\"]), randomDir)\r\n\r\n        var action = cc.repeatForever(cc.sequence(\r\n            cc.moveBy(dt, moveDir),\r\n            cc.moveBy(dt, cc.pMult(moveDir, -1))\r\n        ))\r\n\r\n        this.node.runAction(action)\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function() {\r\n        this.randomMove()\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});"
+  ]
+}

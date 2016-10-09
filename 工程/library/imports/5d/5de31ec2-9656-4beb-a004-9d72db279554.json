@@ -1,0 +1,45 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "jianyinxiaoshi",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 0.25,
+          "value": 0
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 3
+        },
+        {
+          "frame": 0.25,
+          "value": 2
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 3
+        },
+        {
+          "frame": 0.25,
+          "value": 0.5
+        }
+      ]
+    }
+  },
+  "events": []
+}

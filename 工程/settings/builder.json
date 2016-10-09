@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.lbxGame",
+  "startScene": "c8967c94-2e53-4d13-8619-d3d6a045d5b7",
+  "title": "lbxGame",
+  "webOrientation": "portrait"
+}

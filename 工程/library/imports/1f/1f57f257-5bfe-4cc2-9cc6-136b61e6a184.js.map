@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;;;AAMA,IAAI,EAAE,GAAG;;;AAGL,YAAQ,EAAE,kBAAW,GAAG,EAAE;;AAEtB,YAAI,KAAK,GAAG,EAAE,CAAE;;AAEhB,aAAM,IAAI,CAAC,IAAI,GAAG,EAAE;;AAEhB,gBAAK,OAAS,GAAG,CAAG,CAAC,CAAE,AAAC,IAAI,YAAY,EAAE;AACtC,qBAAK,IAAI,CAAC,GAAG,MAAM,CAAA;aACtB,MAAM;;AAEH,qBAAK,IAAI,CAAC,GAAG,MAAM,CAAA;aACtB;SACJ;;AAED,UAAE,CAAC,GAAG,CAAC,KAAK,CAAC,CAAA;KAChB;;;AAGD,UAAM,EAAE,gBAAU,GAAG,EAAE,GAAG,EAAE;;AAExB,eAAO,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,MAAM,EAAE,IAAE,GAAG,GAAG,GAAG,GAAG,CAAC,CAAA,AAAC,GAAG,GAAG,CAAC,CAAA;KACzD;;AAED,eAAW,EAAE,EAAE;;AAEf,aAAS,EAAE,mBAAS,GAAG,EAAE;AACrB,YAAI,CAAC,KAAK,GAAG,IAAI,IAAI,EAAE,CAAC,OAAO,EAAE,CAAC;AAClC,YAAI,CAAC,WAAW,GAAG,GAAG,CAAA;KACzB;;AAED,aAAS,EAAE,mBAAS,GAAG,EAAE;AACrB,YAAI,CAAC,GAAG,GAAG,IAAI,IAAI,EAAE,CAAC,OAAO,EAAE,CAAC;AAChC,YAAI,OAAO,GAAG,AAAC,IAAI,CAAC,GAAG,GAAG,IAAI,CAAC,KAAK,GAAI,IAAI,CAAA;AAC5C,UAAE,CAAC,GAAG,CAAC,QAAQ,GAAG,OAAO,GAAG,IAAI,CAAC,WAAW,CAAC,CAAA;KAChD;;CAEJ,CAAA;;AAGD,MAAM,CAAC,OAAO,GAAG,EAAE,CAAA",
+  "file": "unknown",
+  "sourcesContent": [
+    "/**\r\n * Created by Administrator on 2016/5/6.\r\n */\r\n\r\n\r\n\r\nvar _p = {\r\n\r\n    //遍历对象的属性和方法\r\n    printObj: function ( obj ){\r\n        // 用来保存所有的属性名称和值\r\n        var props = \"\" ;\r\n        // 开始遍历\r\n        for ( var p in obj ){\r\n            // 方法\r\n            if ( typeof ( obj [ p ]) == \" function \" ){\r\n                props += p + \" \\n \"\r\n            } else {\r\n                // p 为属性名称，obj[p]为对应属性的值\r\n                props += p + \" \\n \"\r\n            }\r\n        } // 最后显示所有的属性\r\n\r\n        cc.log(props)\r\n    },\r\n    \r\n    //随机\r\n    random: function (min, max) {\r\n        \r\n        return Math.floor(Math.random()*(max - min + 1) + min)\r\n    },\r\n\r\n    testCodeStr: '',\r\n\r\n    testCode1: function(str) {\r\n        this.start = new Date().getTime();//起始时间\r\n        this.testCodeStr = str\r\n    },\r\n    \r\n    testCode2: function(str) {\r\n        this.end = new Date().getTime();//接受时间\r\n        var timeStr = (this.end - this.start) + \"ms\"\r\n        cc.log(\"此处花时间：\" + timeStr + this.testCodeStr)\r\n    },\r\n\r\n}\r\n\r\n\r\nmodule.exports = _p\r\n"
+  ]
+}

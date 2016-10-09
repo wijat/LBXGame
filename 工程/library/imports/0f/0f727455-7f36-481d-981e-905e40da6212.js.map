@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,cAAM,EAAE,CAAC;KACZ;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,IAAI,CAAC,MAAM,GAAG,IAAI,CAAC,MAAM,CAAA;KACjC;;CAEJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        zIndex: 0,\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.node.zIndex = this.zIndex\r\n    },\r\n\r\n});"
+  ]
+}

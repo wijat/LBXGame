@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,GAAG,GAAG;AACN,aAAS,EAAE,qBAAU,EAEpB;CACJ,CAAA;;;AAGD,IAAI,OAAO,GAAG,CACV,MAAM,CACT,CAAA;;AAED,KAAI,IAAI,CAAC,IAAI,OAAO,EAAC;AACjB,QAAI,IAAI,GAAG,OAAO,CAAC,CAAC,CAAC,CAAA;AACrB,WAAO,CAAC,IAAI,CAAC,CAAA;CAChB;;AAOD,MAAM,CAAC,OAAO,GAAG,GAAG,CAAA",
+  "file": "unknown",
+  "sourcesContent": [
+    "var app = {\r\n    startGame: function(){\r\n\r\n    },\r\n}\r\n\r\n//加载模块(有顺序)\r\nvar modPath = [\r\n    'Util',\r\n]\r\n\r\nfor(var i in modPath){\r\n    var path = modPath[i]\r\n    require(path)\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\nmodule.exports = app"
+  ]
+}

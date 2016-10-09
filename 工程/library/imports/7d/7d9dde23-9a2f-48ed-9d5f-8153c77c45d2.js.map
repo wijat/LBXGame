@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,sBACL,MAAM,EAAG;AACN,mBAAS,IAAI;AACb,YAAI,EAAE,EAAE,CAAC,MAAM;KAClB,CACJ;;AAED,WAAO,EAAE,mBAAU;AACf,YAAI,MAAM,GAAG,IAAI,CAAC,IAAI,CAAC,MAAM,CAAA;AAC7B,YAAI,MAAM,GAAG,EAAE,CAAC,QAAQ,CACpB,EAAE,CAAC,OAAO,CAAC,GAAG,EAAE,CAAC,CAAC,EAClB,EAAE,CAAC,QAAQ,CAAC,YAAU;AAClB,cAAE,CAAC,GAAG,CAAC,MAAM,CAAC,CAAA;;AAEd,cAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,WAAW,CAAC,CAAA;;AAElC,gBAAI,CAAC,IAAI,CAAC,OAAO,EAAE,CAAA;SACtB,EAAE,IAAI,CAAC,CACX,CAAA;;AAED,YAAI,IAAI,GAAG,IAAI,CAAC,YAAY,CAAC,EAAE,CAAC,SAAS,CAAC,CAAA;AAC1C,YAAI,CAAC,IAAI,EAAE,CAAA;;AAEX,YAAI,CAAC,IAAI,CAAC,SAAS,CAAC,MAAM,CAAC,CAAA;KAG9B;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        [\"游戏界面\"]: {\r\n            default: null,\r\n            type: cc.Prefab\r\n        },\r\n    },\r\n\r\n    onClick: function(){\r\n        var canvas = this.node.parent\r\n        var action = cc.sequence(\r\n            cc.scaleTo(0.2, 0),\r\n            cc.callFunc(function(){\r\n                cc.log(\"开始游戏\")\r\n\r\n                cc.director.loadScene(\"gameScene\")\r\n\r\n                this.node.destroy()\r\n            }, this)\r\n        )\r\n\r\n        var anim = this.getComponent(cc.Animation)\r\n        anim.stop()\r\n\r\n        this.node.runAction(action)\r\n\r\n\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

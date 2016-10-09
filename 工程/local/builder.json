@@ -1,0 +1,15 @@
+{
+  "androidStudio": false,
+  "buildPath": "F:\\svn\\lbxGame\\build",
+  "debug": false,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "default",
+  "useDebugKeystore": true
+}
