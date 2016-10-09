@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="cocosAPI" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://E:/CocosCreator/resources/app.asar.unpacked/engine/cocos2d" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://E:/CocosCreator/resources/app.asar.unpacked/engine/cocos2d" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="http://cocos.com/docs/creator/api/" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>
